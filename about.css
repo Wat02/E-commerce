@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: open sans;
+}
+
+
+
+.logo {
+    padding-top: 30px;
+}
+
+.header-1 .mav-bar-a ul {
+	display: flex;
+	padding-top: 30px;
+    color: #1C1C20;
+	list-style: none;
+	font-size: 18px;
+	justify-content: space-around;
+    z-index: 9;
+}
+
+.header-1 .mav-bar-a  ul li a {
+	padding: 10px 20px;
+	display: block;
+    color: black;
+    text-align: center;
+    float: right;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+}
+
+.header-1 .mav-bar-a  ul li a:hover {
+    color: #1E7D76;
+    transition: 0.2s ease-in;
+}
+
+.banner-1 {
+    background-image: url(./img/about/banner.png);
+    height: 50vh;
+    background-size: cover;
+}
+
+.banner-1 .text-banner-1 h1 {
+    padding-top: 130px;
+    font-size: 70px;
+}
+
+.banner-1 .text-banner-1 h1, h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.first-about-us {
+    padding-top: 60px;
+}
+
+.first-about-us .right-side h1 {
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.first-about-us .right-side p {
+    letter-spacing: 1px;
+}
+
+.first-about-us .right-side {
+    padding-top: 50px;
+}   
+
+.our-app {
+    padding-top: 100px;
+}
+
+.our-app .app-video video {
+    width: 70%;
+    margin: auto; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.feuters {
+    padding-top: 100px;
+}
+
+
+.btn-3 {
+    background-color: #1E7D76;
+}
+
+.foter-1 .left-side img {
+    padding-bottom: 30px;
+}
+
+.foter-1 .left-side img:hover {
+    cursor: pointer;
+}
+
+.foter-1 .left-side h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.foter-1 .left-side h5 {
+    line-height: 35px;
+    color: #808080;
+    transition: 0.5s ease-in;
+    padding-bottom: 10px;
+}
+
+.foter-1 .left-side h5:hover {
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.foter-1 .left-side  a i {
+    letter-spacing: 30px;
+    font-size: 25px;
+    transition: 0.5s ease-in; transition: 0.5s ease-in;
+}
+
+.foter-1 .left-side  a i:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0.7;
+}
+
+
+#header-shop {
+    background-image: url(../e-comerc/img/banner/b1.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+
+.foter-1 {
+    padding-top: 100px;
+}
+
+.our-app h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.our-app h1 span {
+    color: #0000C8;
+    text-decoration: underline;
+}
+
+.our-app h1 span:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media (max-width: 767px){
+    #video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    #pic {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+}
+

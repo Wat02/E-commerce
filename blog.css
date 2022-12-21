@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: open sans;
+    color: #1C1C20;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.nav-bar .mav-bar-a ul {
+	display: flex;
+	padding-top: 30px;
+	list-style: none;
+	font-size: 18px;
+	justify-content: space-around;
+    z-index: 9;
+}
+
+.nav-bar .mav-bar-a  ul li a {
+	padding: 10px 20px;
+	display: block;
+    color: black;
+    float: right;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+}
+
+.nav-bar .mav-bar-a  ul li a:hover {
+    color: #1E7D76;
+    transition: 0.2s ease-in;
+}
+
+.nav-bar {
+    background-size: cover;
+}
+
+.banner-1 {
+    background-image: url(./img/banner/b19.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+.banner-1 .text-banner-1 h1 {
+    padding-top: 130px;
+    font-size: 70px;
+}
+
+.banner-1 .text-banner-1 h1, h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.first-blog .right-side {
+    padding-top: 200px;
+    text-align: center;
+}
+
+
+.first-blog .right-side h3 {
+    color: #1C1C20;
+}
+
+#span-1:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.foter-1 .left-side img {
+    padding-bottom: 30px;
+}
+
+.foter-1 .left-side img:hover {
+    cursor: pointer;
+}
+
+.foter-1 .left-side h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.foter-1 .left-side h5 {
+    line-height: 35px;
+    color: #808080;
+    transition: 0.5s ease-in;
+    padding-bottom: 10px;
+}
+
+.foter-1 .left-side h5:hover {
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.foter-1 .left-side  a i {
+    letter-spacing: 30px;
+    font-size: 25px;
+    transition: 0.5s ease-in; transition: 0.5s ease-in;
+}
+
+.foter-1 .left-side  a i:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0.7;
+}
+
+
+#header-shop {
+    background-image: url(../e-comerc/img/banner/b1.jpg);
+    height: 50vh;
+    background-size: cover;
+}

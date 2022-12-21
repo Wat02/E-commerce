@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: open sans;
+    color: #1C1C20;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.nav-bar .mav-bar-a ul {
+	display: flex;
+	padding-top: 30px;
+	list-style: none;
+	font-size: 18px;
+	justify-content: space-around;
+    z-index: 9;
+}
+
+.nav-bar .mav-bar-a  ul li a {
+	padding: 10px 20px;
+	display: block;
+    color: black;
+    float: right;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+}
+
+.nav-bar .mav-bar-a  ul li a:hover {
+    color: #1E7D76;
+    transition: 0.2s ease-in;
+}
+
+.nav-bar {
+    background-size: cover;
+}
+
+.banner-1 {
+    background-image: url(./img/banner/b1.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+.banner-1 .text-banner-1 h1 {
+    padding-top: 130px;
+    color: white;
+    font-size: 70px;
+}
+
+.banner-1 .text-banner-1 h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner-1 .text-banner-1 h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feuters {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.fetured-products {
+    padding-top: 50px;
+}
+
+.fetured-products .prvi h1 {
+    color: black;
+}
+
+.fetured-products .prvi img:hover {
+    opacity: 0.7;
+}
+
+
+.rate-area {
+    float: left;
+    border-style: none; 
+    padding-right: 40px;
+  }
+  
+  .rate-area:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .rate-area:not(:checked) > label {
+    float: right;
+    width: 0.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 180%;
+    color: lightgrey;
+  }
+  
+  .rate-area:not(:checked) > label:before {
+    content: "★";
+  }
+  
+  .rate-area > input:checked ~ label {
+    color: gold;
+  }
+  
+  .rate-area:not(:checked) > label:hover,
+  .rate-area:not(:checked) > label:hover ~ label {
+    color: gold;
+  }
+  
+  .rate-area > input:checked + label:hover,
+  .rate-area > input:checked + label:hover ~ label,
+  .rate-area > input:checked ~ label:hover,
+  .rate-area > input:checked ~ label:hover ~ label,
+  .rate-area > label:hover ~ input:checked ~ label {
+    color: gold;
+  }
+
+  #btn {
+    background-color: #233656;
+}
+
+.prvi {
+    text-align: center; }
+
+    .slider-to-page-2 {
+        text-align: center;
+        vertical-align: center;
+        align-items: center;
+    }
+
+    .slider-to-page-2 .buttons  {
+        padding-bottom: 100px;
+    }
+
+ .slider-to-page-2 .buttons button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1E7D76;
+    color: white;
+    border: none;
+ }
+
+ .foter-1 .left-side img {
+    padding-bottom: 30px;
+}
+
+.foter-1 .left-side img:hover {
+    cursor: pointer;
+}
+
+.foter-1 .left-side h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.foter-1 .left-side h5 {
+    line-height: 35px;
+    color: #808080;
+    transition: 0.5s ease-in;
+    padding-bottom: 10px;
+}
+
+.foter-1 .left-side h5:hover {
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.foter-1 .left-side  a i {
+    letter-spacing: 30px;
+    font-size: 25px;
+    transition: 0.5s ease-in; transition: 0.5s ease-in;
+}
+
+.foter-1 .left-side  a i:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0.7;
+}
