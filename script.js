@@ -24,14 +24,14 @@ inputs.forEach(Element => {
            let validation = inputValue.trim()
             validation = validation.split(" ")
            if(validation.length < 2) {
-            errors[inputName].push('moras napisati ime i prezime')
+            errors[inputName].push('you must write your first and last name')
         }
 
         break
 
         case 'email':
             if(!validateEmail(inputValue)) {
-                errors[inputName].push('neispravna e-mail adresa')
+                errors[inputName].push('invalid e-mail address')
             }
   
             break
@@ -40,14 +40,14 @@ inputs.forEach(Element => {
             case 'ponovi_lozinku':
                 let lozinka = document.querySelector('input[name="lozinka"]').value
                 if(inputValue !== lozinka) {
-                    errors[inputName].push('lozinke se ne poklapaju')
+                    errors[inputName].push('passwords do not match')
                 } 
                 
                 break
 
            }
         } else {
-            errors[inputName] = ['polje ne moze imati manje od 5 karakter']
+            errors[inputName] = ['the field cannot have less than 5 characters']
         }
 
         populationErors()

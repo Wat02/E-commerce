@@ -39,7 +39,7 @@
 }
 
 .banner-1 {
-    background-image: url(./img/banner/b1.jpg);
+    background-image: url(img/banner/b1.jpg);
     height: 50vh;
     background-size: cover;
 }

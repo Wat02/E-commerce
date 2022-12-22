@@ -40,7 +40,7 @@
 }
 
 .nav-bar {
-    background-image: url(./img/hero4.png);
+    background-image: url(img/hero4.png);
     height: 100vh;
     background-size: cover;
 }
@@ -82,7 +82,7 @@
 
 
 #button {
-    background-image: url(./img/button.png);
+    background-image: url(img/button.png);
     background-color: transparent;
     border: none;
     padding: 1px 80px 14px 65px;
@@ -158,7 +158,7 @@
 
 
 .repair {
-    background-image: url(./img/banner/b2.jpg);
+    background-image: url(img/banner/b2.jpg);
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@
 }
 
 .main-baners .first-baner {
-    background-image: url(../e-comerc/img/adidas\(1\).jpg);
+    background-image: url(img/adidas\(1\).jpg);
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@
     } 
 
     .second-baner {
-        background-image: url(../e-comerc/img/nike\(1\).jpg);
+        background-image: url(img/nike\(1\).jpg);
         height: 50vh;
         background-size: cover;
         background-repeat: no-repeat;
@@ -240,7 +240,7 @@
     }
 
     .seocnd-banners .first {
-        background-image: url(./img/lik1.jpg);
+        background-image: url(img/lik1.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -259,7 +259,7 @@
     }
 
     .second {
-        background-image: url(./img/lik2.jpg);
+        background-image: url(img/lik2.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -267,7 +267,7 @@
     }
 
     .third {
-        background-image: url(./img/lik3.jpg);
+        background-image: url(img/lik3.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -316,13 +316,13 @@
 
 
     #header-shop {
-        background-image: url(../e-comerc/img/banner/b1.jpg);
+        background-image: url(img/banner/b1.jpg);
         height: 50vh;
         background-size: cover;
     }
 
     .sighn-up {
-    background-image: url(./img/121.jpg);
+    background-image: url(img/121.jpg);
     background-size: cover;
     background-position: center;
     height: 50vh;
